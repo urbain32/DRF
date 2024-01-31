@@ -1,0 +1,9 @@
+// DRF django rest framework 
+
+1. py -m venv venv // creating the env. using cmd terminal
+2.venv\Scripts\activate // activating the env.
+3.pip install django // installing django
+4.django-admin startproject core .// using django to create a project we use "." for the created  project to be stored in the same folder as our env.
+
+
+
