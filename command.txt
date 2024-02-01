@@ -7,6 +7,7 @@
 5.py manage.py startapp blog // for creating app for aour project
 6.py manage.py makemigrations // to make migration of our model
 7.py manage.py migrate // to migrate the our models in a database
+8.py manage.py createsuperuser
 
 
 
