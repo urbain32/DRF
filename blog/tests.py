@@ -19,4 +19,8 @@ class Test_Create_Post(TestCase):
         title =f'{post.title}'  
         content =f'{post.content}'  
         status =f'{post.status}'  
-        self.assertEqual(author,'test_user1') # this command allow autor to be equal to test_user1
+        self.assertEqual(author,'test_user1') # this command test if author is equal to test_user1
+        self.assertEqual(excerpt,'Post excerpt') 
+        self.assertEqual(title,'Post title')
+        self.assertEqual(content,'Post content') 
+        self.assertEqual(status,'published') 
